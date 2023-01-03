@@ -49,3 +49,9 @@ a.nav-link {
 }
 
 /* About page styles */
+
+/* Footer styles */
+.footer-copyright {
+  color: var(--gray-1);
+  font-size: 20px;
+}
