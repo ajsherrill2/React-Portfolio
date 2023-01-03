@@ -21,7 +21,7 @@ export default function Nav () {
                                 <a className="nav-link" href="#contact">Contact</a>
                             </li>
                             <li className="nav-item">
-                                <a class="nav-link" href="#resume">Resume</a>
+                                <a className="nav-link" href="#resume">Resume</a>
                             </li>
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

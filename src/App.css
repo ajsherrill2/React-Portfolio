@@ -49,8 +49,29 @@ a.nav-link {
 }
 
 /* About page styles */
+.card {
+  max-width: 75%;
+  border: none;
+}
+
+.card-title {
+  font-size: 30px;
+}
+
+.card-text {
+  font-size: 20px;
+}
+
+.dark-background {
+  background: var(--black-1);
+  color: var(--gray-1);
+}
 
 /* Footer styles */
+.page-footer {
+  background: var(--gray-2);
+}
+
 .footer-copyright {
   color: var(--gray-1);
   font-size: 20px;
