@@ -50,7 +50,8 @@ a.nav-link {
 
 /* About page styles */
 .card {
-  max-width: 75%;
+  max-width: 90%;
+  margin-bottom: 15px;
   border: none;
 }
 
@@ -67,8 +68,14 @@ a.nav-link {
   color: var(--gray-1);
 }
 
+/* Projects styles */
+.projects {
+  max-width: 90%;
+}
+
 /* Footer styles */
 .page-footer {
+  margin-top: 15px;
   background: var(--gray-2);
 }
 

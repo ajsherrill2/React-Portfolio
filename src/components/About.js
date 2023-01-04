@@ -1,5 +1,5 @@
 import '../App.css';
-import logo from '../PHPA4945.JPG'
+import logo from '../images/PHPA4945.JPG'
 
 export default function About () {
     return (
