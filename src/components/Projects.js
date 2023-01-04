@@ -11,7 +11,9 @@ export default function Projects () {
         <div class="projects row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-6 my-auto mx-auto">
             <div class="col">
                 <div class="card border-0">
-                    <img src={image1} class="card-img-top" alt="Weather Dashboard"/>
+                    <a href="https://ajsherrill2.github.io/Your-Weather-Dashboard/" target="_blank" rel="noreferrer">
+                        <img src={image1} class="card-img-top" alt="Weather Dashboard"/>
+                    </a>
                     <div class="card-body dark-background">
                         <h5 class="card-title dark-background">Weather Dashboard</h5>
                         <p>
@@ -29,7 +31,9 @@ export default function Projects () {
             </div>
             <div class="col">
                 <div class="card border-0">
-                    <img src={image2} class="card-img-top" alt="The Book Club"/>
+                    <a href="https://ajsherrill2.github.io/Project-1-Runtime-Terror/" target="_blank" rel="noreferrer">
+                        <img src={image2} class="card-img-top" alt="The Book Club"/>
+                    </a>
                     <div class="card-body dark-background">
                         <h5 class="card-title dark-background">The Book Club</h5>
                         <p>
@@ -47,7 +51,9 @@ export default function Projects () {
             </div>
             <div class="col">
                 <div class="card border-0">
-                    <img src={image3} class="card-img-top" alt="Note Taker"/>
+                    <a href="https://ajs-note-taker.herokuapp.com/" target="_blank" rel="noreferrer">
+                        <img src={image3} class="card-img-top" alt="Note Taker"/>
+                    </a>
                     <div class="card-body dark-background">
                         <h5 class="card-title dark-background">Note Taker</h5>
                         <p>
@@ -65,7 +71,9 @@ export default function Projects () {
             </div>
             <div class="col">
                 <div class="card border-0">
-                    <img src={image4} class="card-img-top" alt="E-Commerce App"/>
+                    <a href="https://github.com/ajsherrill2/E-Commerce-BE.git" target="_blank" rel="noreferrer">
+                        <img src={image4} class="card-img-top" alt="E-Commerce App"/>
+                    </a>
                     <div class="card-body dark-background">
                         <h5 class="card-title dark-background">E-Commerce App</h5>
                         <p>
@@ -83,7 +91,9 @@ export default function Projects () {
             </div>
             <div class="col">
                 <div class="card border-0">
-                    <img src={image5} class="card-img-top" alt="Tech Blog"/>
+                    <a href="https://desolate-oasis-10594.herokuapp.com/" target="_blank" rel="noreferrer">
+                        <img src={image5} class="card-img-top" alt="Tech Blog"/>
+                    </a>
                     <div class="card-body dark-background">
                         <h5 class="card-title dark-background">Tech Blog</h5>
                         <p>
@@ -101,7 +111,9 @@ export default function Projects () {
             </div>
             <div class="col">
                 <div class="card border-0">
-                    <img src={image6} class="card-img-top" alt="Daily Fit Nutrition"/>
+                    <a href="https://daily-fit2.herokuapp.com/" target="_blank" rel="noreferrer">
+                        <img src={image6} class="card-img-top" alt="Daily Fit Nutrition"/>
+                    </a>
                     <div class="card-body dark-background">
                         <h5 class="card-title dark-background">Daily Fit Nutrition</h5>
                         <p>
