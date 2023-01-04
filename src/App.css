@@ -73,6 +73,25 @@ a.nav-link {
   max-width: 90%;
 }
 
+/* Contact styles */
+form.contact-form {
+  background: var(--black-1);
+  color: var(--gray-1);
+  max-width: 35%;
+
+}
+
+input.form-control {
+  background: var(--gray-2);
+  border: none;
+  color: var(--white);
+}
+
+/* Resume styles */
+.resume {
+  width: 35%;
+}
+
 /* Footer styles */
 .page-footer {
   margin-top: 15px;
