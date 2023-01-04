@@ -28,10 +28,10 @@ export default function Nav () {
                                     Media
                                 </a>
                                 <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="https://www.instagram.com/aj.sherrill/">Instagram</a></li>
-                                    <li><a className="dropdown-item" href="https://twitter.com/ajsherrill1221">Twitter</a></li>
-                                    <li><a className="dropdown-item" href="https://www.facebook.com/adam.sherrill.52/">Facebook</a></li>
-                                    <li><a className="dropdown-item" href="https://www.linkedin.com/in/adam-sherrill-5159a9244/">LinkedIn</a></li>
+                                    <li><a className="dropdown-item" href="https://www.instagram.com/aj.sherrill/" target="_blank" rel="noreferrer">Instagram</a></li>
+                                    <li><a className="dropdown-item" href="https://twitter.com/ajsherrill1221" target="_blank" rel="noreferrer">Twitter</a></li>
+                                    <li><a className="dropdown-item" href="https://www.facebook.com/adam.sherrill.52/" target="_blank" rel="noreferrer">Facebook</a></li>
+                                    <li><a className="dropdown-item" href="https://www.linkedin.com/in/adam-sherrill-5159a9244/" target="_blank" rel="noreferrer">LinkedIn</a></li>
                                 </ul>
                             </li>
                         </ul>
