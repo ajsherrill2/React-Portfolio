@@ -2,11 +2,11 @@ import '../App.css';
 
 export default function Contact () {
     return (
-        <form className="card contact-form mt-4 card-body mx-auto border-0">
+        <form className="card contact-form mt-5 card-body mx-auto border-0">
             <h4>Contact</h4>
             <div className="mb-3">
                 <label for="nameInput" className="form-label">Name</label>
-                <input type="email" className="form-control " id="nameInput" placeholder="Obi-Wan Kenobi"/>
+                <input type="email" className="form-control" id="nameInput" placeholder="Obi-Wan Kenobi"/>
             </div>
             <div className="mb-3">
                 <label for="emailInput" className="form-label">Email</label>

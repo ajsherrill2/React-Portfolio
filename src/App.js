@@ -1,3 +1,6 @@
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 import Nav from './components/Nav';
 import About from './components/About';
 import Projects from './components/Projects';
@@ -13,11 +16,25 @@ function App() {
 
   return (
     <div className="App">
-      <Nav />
-      <About />
-      <Projects />
-      <Contact />
-      <Footer />
+      <Router>
+        <Nav />
+          <Routes>
+          <Route
+            path='/about'
+            element={<About />}
+          />
+          <Route
+            path='/projects'
+            element={<Projects />}
+          />
+          <Route
+            path='/contact'
+            element={<Contact />}
+          />
+          </Routes>
+        <Footer />
+      </Router>
+      
     </div>
   );
 }

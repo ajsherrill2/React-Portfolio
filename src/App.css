@@ -33,6 +33,7 @@ a.navbar-brand {
 
 a.nav-link {
   font-size: 20px;
+
 }
 
 .navbar-nav ul {
@@ -73,18 +74,27 @@ a.nav-link {
   max-width: 90%;
 }
 
+a.dropdown-item:hover {
+  background: var(--gray-3);
+}
+
 /* Contact styles */
 form.contact-form {
   background: var(--black-1);
   color: var(--gray-1);
-  max-width: 35%;
-
+  max-width: 75%;
 }
 
 input.form-control {
   background: var(--gray-2);
   border: none;
   color: var(--white);
+}
+
+#messageInput {
+  height: 100px;
+  display: inline-block;
+  vertical-align: top;
 }
 
 /* Resume styles */
@@ -100,5 +110,5 @@ input.form-control {
 
 .footer-copyright {
   color: var(--gray-1);
-  font-size: 20px;
+  font-size: 18px;
 }

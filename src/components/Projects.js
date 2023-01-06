@@ -8,7 +8,7 @@ import image6 from "../images/daily-fit.png";
 
 export default function Projects () {
     return (
-        <div class="projects row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-6 my-auto mx-auto">
+        <div class="projects row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 my-auto mx-auto mt-4">
             <div class="col">
                 <div class="card border-0">
                     <a href="https://ajsherrill2.github.io/Your-Weather-Dashboard/" target="_blank" rel="noreferrer">

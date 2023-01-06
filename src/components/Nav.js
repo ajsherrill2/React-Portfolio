@@ -1,3 +1,6 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+
 import '../App.css';
 
 export default function Nav () {
@@ -5,23 +8,31 @@ export default function Nav () {
         <header className="App-header">
             <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-body-tertiary">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#top">&lt;Adam Sherrill&gt;</a>
+                    <a className="navbar-brand text-white" href="#top">&lt;Adam Sherrill/&gt;</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a className="nav-link" href="#about">About</a>
+                                <Link className="nav-link" to='/about'>
+                                    About
+                                </Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#projects">Projects</a>
+                                <Link className="nav-link" to='/projects'>
+                                    Projects
+                                </Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#contact">Contact</a>
+                                <Link className="nav-link" to='/contact'>
+                                    Contact
+                                </Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#resume">Resume</a>
+                                <Link className="nav-link" to='/resume'>
+                                    Resume
+                                </Link>
                             </li>
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
