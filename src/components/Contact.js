@@ -17,7 +17,7 @@ export default function Contact () {
                 <input type="text" className="form-control" name='message' id="message" placeholder="Hello there" required/>
             </div>
             <div class="form-contact-email">
-                <input type="submit" target="_blank" value="Send email"/>
+                <button className="button btn btn-primary" type="submit" target="_blank">Send email</button>
             </div>
         </form>
     )

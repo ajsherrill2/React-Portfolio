@@ -1,10 +1,10 @@
 import '../App.css';
-import image1 from "../images/Weather-Dashboard.png";
-import image2 from "../images/The-Book-Club.png";
-import image3 from "../images/note-taker.png";
-import image4 from "../images/e-commerce.png";
-import image5 from "../images/tech-blog.png";
-import image6 from "../images/daily-fit.png";
+import image1 from "../assets/images/Weather-Dashboard.png";
+import image2 from "../assets/images/The-Book-Club.png";
+import image3 from "../assets/images/note-taker.png";
+import image4 from "../assets/images/e-commerce.png";
+import image5 from "../assets/images/tech-blog.png";
+import image6 from "../assets/images/daily-fit.png";
 
 export default function Projects () {
     return (

@@ -1,6 +1,6 @@
-import page1 from "../images/resume-p1.png";
-import page2 from "../images/resume-p2.png";
-import resumeDoc from "../docs/Technical-Resume.docx.pdf";
+import page1 from "../assets/images/resume-p1.png";
+import page2 from "../assets/images/resume-p2.png";
+import resumeDoc from "../assets/docs/Technical-Resume.docx.pdf";
 
 import "../App.css"
 

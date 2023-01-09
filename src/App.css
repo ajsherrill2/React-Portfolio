@@ -107,6 +107,16 @@ input.form-control {
   vertical-align: top;
 }
 
+.form-contact-email button {
+  background: var(--blue);
+  border: var(--blue);
+}
+
+.form-contact-email button:hover {
+  background: var(--black-2);
+  border: var(--black-2);
+}
+
 /* Resume styles */
 .resume {
   max-width: 80%;
