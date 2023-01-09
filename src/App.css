@@ -88,6 +88,12 @@ a.dropdown-item:hover {
   border: var(--black-2);
 }
 
+.projects-header {
+  color: var(--gray-1);
+  text-align: center;
+  font-size: 200%;
+}
+
 /* Contact styles */
 form.contact-form {
   background: var(--black-1);

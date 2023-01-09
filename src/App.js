@@ -13,6 +13,8 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.js';
 
 function App() {
+  // const [selectedPage, setselectedPage] = useState("about");
+
   const title = 'Adam Sherrill || Portfolio';
   useEffect(() => {
     document.title = title;
@@ -26,26 +28,25 @@ function App() {
       <Router>
         <Nav />
           <Routes>
-          <Route
-            path='/about'
-            element={<About />}
-          />
-          <Route
-            path='/projects'
-            element={<Projects />}
-          />
-          <Route
-            path='/contact'
-            element={<Contact />}
-          />
-          <Route
-            path='/resume'
-            element={<Resume />}
-          />
+            <Route
+              path='/'
+              element={<About />}
+            />
+            <Route
+              path='/projects'
+              element={<Projects />}
+            />
+            <Route
+              path='/contact'
+              element={<Contact />}
+            />
+            <Route
+              path='/resume'
+              element={<Resume />}
+            />
           </Routes>
         <Footer />
       </Router>
-      
     </div>
   );
 }
