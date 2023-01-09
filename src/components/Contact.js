@@ -2,19 +2,22 @@ import '../App.css';
 
 export default function Contact () {
     return (
-        <form className="card contact-form mt-5 card-body mx-auto border-0">
+        <form action="https://formsubmit.co/adamjamessherrill@gmail.com" method="POST" className="card contact-form mt-5 card-body mx-auto border-0">
             <h4>Contact</h4>
             <div className="mb-3">
-                <label for="nameInput" className="form-label">Name</label>
-                <input type="email" className="form-control" id="nameInput" placeholder="Obi-Wan Kenobi"/>
+                <label for="name" className="form-label">Name</label>
+                <input type="text" className="form-control" name='name' id="name" placeholder="Obi-Wan Kenobi" required/>
             </div>
             <div className="mb-3">
-                <label for="emailInput" className="form-label">Email</label>
-                <input type="email" className="form-control" id="emailInput" placeholder="example@email.com"/>
+                <label for="email" className="form-label">Email</label>
+                <input type="email" className="form-control" name='email' id="email" placeholder="example@email.com" required/>
             </div>
             <div className="mb-3">
-                <label for="messageInput" className="form-label">Message</label>
-                <input type="text" className="form-control" id="messageInput" placeholder="Hello there"/>
+                <label for="message" className="form-label">Message</label>
+                <input type="text" className="form-control" name='message' id="message" placeholder="Hello there" required/>
+            </div>
+            <div class="form-contact-email">
+                <input type="submit" target="_blank" value="Send email"/>
             </div>
         </form>
     )
