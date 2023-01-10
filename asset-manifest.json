@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.301b90cd.css",
+    "main.js": "/static/js/main.5a68c093.js",
+    "static/media/daily-fit.png": "/static/media/daily-fit.fe7efb20a240148ccb94.png",
+    "static/media/PHPA4945.JPG": "/static/media/PHPA4945.fe0d00f96c14811d0695.JPG",
+    "static/media/Weather-Dashboard.png": "/static/media/Weather-Dashboard.2d443aaf9c2231b7af92.png",
+    "static/media/e-commerce.png": "/static/media/e-commerce.dda1aeaee3e5c39b70e5.png",
+    "static/media/The-Book-Club.png": "/static/media/The-Book-Club.e44e6d9b3a97bf03188a.png",
+    "static/media/tech-blog.png": "/static/media/tech-blog.3f7dbc4d9f88dc209ee5.png",
+    "static/media/resume-p1.png": "/static/media/resume-p1.5b25d40a5e692cf9d37b.png",
+    "static/media/Technical-Resume.docx.pdf": "/static/media/Technical-Resume.docx.54af3e5135509a838080.pdf",
+    "static/media/resume-p2.png": "/static/media/resume-p2.6a311f1e5bcdec3c8a67.png",
+    "static/media/note-taker.png": "/static/media/note-taker.e2f022da529ece7b76c4.png",
+    "index.html": "/index.html",
+    "main.301b90cd.css.map": "/static/css/main.301b90cd.css.map",
+    "main.5a68c093.js.map": "/static/js/main.5a68c093.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.301b90cd.css",
+    "static/js/main.5a68c093.js"
+  ]
+}
