@@ -44,6 +44,10 @@ function App() {
               path='/resume'
               element={<Resume />}
             />
+            <Route
+              path='*'
+              element={<About />}
+            />
           </Routes>
         <Footer />
       </Router>
