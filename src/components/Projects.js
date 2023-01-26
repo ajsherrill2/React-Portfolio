@@ -5,6 +5,7 @@ import image3 from "../assets/images/note-taker.png";
 import image4 from "../assets/images/e-commerce.png";
 import image5 from "../assets/images/tech-blog.png";
 import image6 from "../assets/images/daily-fit.png";
+import image7 from "../assets/images/deadcoder.png";
 
 export default function Projects () {
     return (
@@ -126,6 +127,26 @@ export default function Projects () {
                             <div className="collapse" id="collapse6">
                                 <div className="card card-body">
                                 A full stack calorie tracker app. Which utilizes an MVC framework using MySQL, Express.js, Sequelize, Chart.js and handlebars.js in order to allow users to create secure accounts and perform appropriate CRUD operations.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="card border-0">
+                        <a href="https://deadcoder.herokuapp.com/games" target="_blank" rel="noreferrer">
+                            <img src={image7} className="card-img-top" alt="deadCoder"/>
+                        </a>
+                        <div className="card-body dark-background">
+                            <h5 className="card-title dark-background">deadCoder</h5>
+                            <p>
+                                <button className="button btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                                    Description
+                                </button>
+                            </p>
+                            <div className="collapse" id="collapse6">
+                                <div className="card card-body">
+                                deadCoder is an app that allows you to play Tetris, Lights Out, or TicTacToe. Player scores are tracked, and you, the player are able to like the games you enjoy the most.
                                 </div>
                             </div>
                         </div>
