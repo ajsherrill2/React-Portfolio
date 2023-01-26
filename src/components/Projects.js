@@ -140,11 +140,11 @@ export default function Projects () {
                         <div className="card-body dark-background">
                             <h5 className="card-title dark-background">deadCoder</h5>
                             <p>
-                                <button className="button btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                                <button className="button btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
                                     Description
                                 </button>
                             </p>
-                            <div className="collapse" id="collapse6">
+                            <div className="collapse" id="collapse7">
                                 <div className="card card-body">
                                 deadCoder is an app that allows you to play Tetris, Lights Out, or TicTacToe. Player scores are tracked, and you, the player are able to like the games you enjoy the most.
                                 </div>
